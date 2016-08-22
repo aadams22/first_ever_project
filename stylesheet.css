@@ -1,0 +1,141 @@
+* {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.background {
+	background-image: url(http://www.medici-living.de/sites/default/files/cities_images/berlin/wg-berlin-friedrichshain.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0px;
+}
+
+.layer {
+	background-color: rgba(248, 247,216, 0.7);
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	width: 65%;
+}
+
+h1 {
+	position: relative;
+	font-family: 'Reenie Beanie', cursive; 
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	text-align: center;
+	font-size: 50px;
+	color: #1C3448;
+}
+
+img {
+	display: block;
+	margin-left: 15%;
+	margin-bottom: 8%;
+	position: relative;
+	height: 170px;
+	width: 170px;
+	border: 2px solid #1C3448;
+	float: left;
+}
+
+h4 {
+	position: relative;
+	font-weight: 600;
+	text-align: left;
+	color: #1C3448;
+	border: 1px solid rgba(0,0,0,0.1);
+	float: right;
+	margin-right: 15%;
+	line-height: 200%;
+	padding: 15px;
+}
+
+hr.fancy-line { 
+    border: 0; 
+    height: 1.5px;
+    clear: both;
+
+}
+hr.fancy-line:before {
+    top: -0.5em;
+    height: 1.5em;
+}
+
+hr.fancy-line:after {
+    content:'';
+    height: 0.5em;
+    top: 1px;
+}
+
+hr.fancy-line:before, hr.fancy-line:after {
+    content: '';
+    position: fixed;
+    width: 66%;
+    padding-top: 0;
+}
+
+hr.fancy-line, hr.fancy-line:before {
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 75%);
+}
+
+.objective {
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	color: #1C3448;
+	clear: both;
+	padding: 10px;
+	
+}
+
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-weight: 600;
+	text-align: center;
+	color: #1C3448;
+}
+ul.tabs li{
+	background: none;
+	display: inline-block;
+	padding: 20px 20px;
+	cursor: pointer;
+	border: 1px solid rgba(0,0,0,0.1);
+	background-color: rgba(248, 247,216, 0.7);
+	font-size: 20px;
+	margin-top: 5%;
+}
+
+ul.tabs li.current{
+	background: inherit;
+	background-color: rgba(248, 247,216, 0.7);
+	font-size: 20px;
+}
+
+.tab-content{
+	display: none;
+	padding: 15px;
+	font-weight: 600;
+	text-align: center;
+	color: #1C3448;
+	text-align: left;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+.tab-content.current{
+	display: inherit;
+}
+
+#tab-1{
+	text-align: center;
+}
